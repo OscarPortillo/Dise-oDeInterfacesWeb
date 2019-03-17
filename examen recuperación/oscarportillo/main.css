@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Francois+One");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
+
+#miEmpresa{
+    font-family: 'Anton', sans-serif;
+}
+a{
+    font-family: 'Francois One', sans-serif;
+}
+p{
+  font-family:  'Libre Baskerville', serif;
+  font-size: 20px;
+}
+.cabecera { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template:
+    'header header header header header header'
+    'menu menu menu menu menu menu'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.grid-container > div,header,footer {
+  background-color: #EAE5EC;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#miEmpresa{
+    background-color: #cec3d2;
+}
+
+/*menu*/
+
+.item2 #{
+    justify-content: center;
+    align-items: center;
+}
+#menu {
+    margin: auto auto;    
+    list-style: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+#menu ul li {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+#menu ul li:hover{
+    background-color: #633375;
+
+}
+#menu ul li {
+    background-color: #cec3d2;
+    float: left;
+    margin: 0;
+    padding: 5px;
+}
+
+#menu ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*MENU 1 2 3 4 5*/
+/*sub menus*/
+#menu ul ul {
+    z-index: 999;
+    display: none;
+    position: absolute;
+}
+
+#menu ul ul li {
+    float: none;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+/*cuerpo de la pagina*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+.column {
+    margin-left: 2%;
+    margin-right: 2%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    font-size: 60%;
+    
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+
+}
+.item3 div{
+    justify-content: center;
+    align-items: center;
+}
+
+/**footer*/
+
+
+/*FOOTER*/
+.footer{
+    background-color: #cec3d2;
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    .cabecera{
+        width: 100%;
+    }
+    #logo{
+        margin: auto auto;
+        float: none;
+    }
+    #miEmpresa{
+        font-size: 30px;
+    }
+    .item2{
+        width: 100%;
+    }
+    #menu{
+        width: 100%;
+    }
+    #menu ul{
+        padding: 0;
+    }
+    #menu ul li{
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+    #menu ul ul li{
+        float: left;
+    }
+    .item3{
+        width: 100%;
+    }
+    .row{
+        display: block;
+    }
+    .row .column{
+        width: 100%;
+    }
+    .column{
+        width: 100%;
+        max-width: 100%;
+    }
+    .footer{
+        justify-content: center;
+        align-items: center;
+    }
+    .sociales{
+        
+        width: auto;
+        height: auto;
+    }
+    p{
+        font-size: 15px;
+    }
+}

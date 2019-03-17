@@ -1,0 +1,24 @@
+.cabecera { grid-area: header; }
+.item2 { grid-area: izquierdo; }
+.item3 {grid-area: derecho}
+.item4 { grid-area: main; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template:
+    'header header header header header header'
+    'izquierdo derecho derecho derecho derecho derecho'
+    'izquierdo derecho derecho derecho derecho derecho'
+    'izquierdo main main main main main'
+    'footer footer footer footer footer footer';
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.grid-container > div,header,footer,main {
+  background-color: #EAE5EC;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
