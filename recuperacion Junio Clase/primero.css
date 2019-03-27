@@ -1,0 +1,30 @@
+#lista{
+    padding-left: 0%;
+    background-color: bisque;
+    list-style: none;
+}
+
+#lista li{
+    background-color: black;
+    color: white;
+    /*text-align: center;*/
+    padding-left: 20px;
+}
+
+#lista:first-child{
+    background-color: aqua;
+}
+#lista li{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 1.5em;/*propiedad relativa(son relativos a su contexto)*/
+}
+.parrafo{
+    background-color: aquamarine;
+    padding: 40px;
+    font-size: 2em;
+}

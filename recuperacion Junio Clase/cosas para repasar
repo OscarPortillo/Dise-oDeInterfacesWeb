@@ -1,0 +1,34 @@
+* Elementos GRID
+* FlexBox
+* Media Queries
+* Selectores con JQuery $(":elemento") Pseudo-clases y pseudo-elementos 
+* Propiedades CSS para hacer menus horizontales
+* ViewPort
+* Propiedades de position: static, relative, fixed, absolute, sticky
+* Flex-wrap
+
+
+Apuntes:
+
+html head body->
+* Cuátos cajas hay en solo eso? Hay CERO.
+* Cuátos elementos hay en solo eso? Hay 3. DOM(Documentos Object Model)-> Cada elemento es un objeto.
+* DOM(Documentos Object Model)
+
+Programación Orientada a Objetos (POO).
+    Herencia,
+    Polimorfismo,
+    Propiedades/Atributos,
+    Métodos/Funciones.
+
+    * head y body heredan las propiedades de la etiqueta html.
+    nested-> anidado
+    
+    
+Padding. Espacio entre el contenido del elemento y el borde.
+
+* el span no hacía caso al modelo de caja.
+* todos los objetos se rigen por el modelo de caja. tienen estructura de cajas y se usan como cajas.
+* la etiqueta p no es normal que tenga como hijo un div ( una caja)
+
+* los elementos anidados heredan y añaden las propiedades ejemplo si un div padre tiene 10px y un p anidado tiene 5px será p quién tenga 15px
