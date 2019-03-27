@@ -1,24 +1,115 @@
-.cabecera { grid-area: header; }
-.item2 { grid-area: izquierdo; }
-.item3 {grid-area: derecho}
-.item4 { grid-area: main; }
-.footer { grid-area: footer; }
+.cabecera {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: izquierdo;
+}
+
+.item3 {
+    grid-area: derecho
+}
+
+.item4 {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
 
 .grid-container {
-  display: grid;
-  grid-template:
-    'header header header header header header'
-    'izquierdo derecho derecho derecho derecho derecho'
-    'izquierdo derecho derecho derecho derecho derecho'
-    'izquierdo main main main main main'
-    'footer footer footer footer footer footer';
+    display: grid;
+    grid-template:
+        'header header header header header header'
+        'derecho derecho derecho derecho derecho derecho'
+        'izquierdo main main main main main'
+        'footer footer footer footer footer footer';
     grid-gap: 5px;
     padding: 5px;
 }
 
-.grid-container > div,header,footer,main {
-  background-color: #EAE5EC;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.grid-container > div,
+header,
+footer,
+main {
+    background-color: #EAE5EC;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
 }
+
+/*LOGO*/
+#logo {
+    padding-left: 10px;
+    float: left;
+    width: 170px;
+    height: 150px;
+}
+
+#nombreEmpresa {
+    text-align: center;
+}
+
+#login {
+    padding-right: 10px;
+    float: right;
+}
+
+#login {
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+}
+/*menuIzquierdo*/
+#menuIzquierdo ul li{
+    background-color: cadetblue;
+}
+
+#menuIzquierdo ul{
+    padding-left: 10px;
+    list-style: none;
+}
+#menuIzquierdo ul li a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+#menuIzquierdo ul li:hover{
+    background-color: coral;
+}
+
+#menuIzquierdo li.active {
+    background-color:brown;
+    color: white;
+}
+/*menuIzquierdo*/
+/*menuDerecho*/
+#menuDerecho{
+    padding-left: 25%;
+}
+#menuDerecho ul{
+        background-color: cadetblue;
+
+    list-style: none;
+}
+#menuDerecho ul li{
+    display: inline-block;
+}
+#menuDerecho ul li a{
+    color: black;
+    text-decoration: none;
+}
+#menuDerecho ul li a:hover{
+    background-color: coral;
+}
+
+#menuDerecho li  > ul {
+    display: none;
+}
+#menuDerecho li:hover ul{
+    display: block;
+}
+/*menuDerecho*/
