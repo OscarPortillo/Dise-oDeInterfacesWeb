@@ -1,0 +1,25 @@
+p{
+    height: 200px;
+    width: auto;
+}
+div{
+    padding: 5%;
+    border: 10px dotted blue;
+    margin: 20px;
+    background-color: chocolate;
+    width: 50%;    
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+th, td{
+    border: solid 1px;;
+}
