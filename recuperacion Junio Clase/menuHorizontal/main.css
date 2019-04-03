@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+
+.menu{
+    background-color: burlywood;
+}
+
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    padding: 20px;
+    background-color:dodgerblue;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+}
