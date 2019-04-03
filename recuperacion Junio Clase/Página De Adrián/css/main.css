@@ -1,0 +1,22 @@
+a{/*La herencia a todos los elementos*/
+    text-decoration: none;
+}
+#menuHorizontal ul li{
+    float: left;/*Esta es la manera correcta de hacerlo*/
+    /*Ahora hay que anular la flotación con clear: both; en el siguiente elemento*/
+    /*display: inline-block;*/
+}
+#menuHorizontal ul {
+    list-style: none;
+}
+nav#menuHorizontal{
+    background-color: #f03c01;
+}
+
+
+#main{
+    clear: both;
+}
+/*gris negro*/
+
+/*Lo menos que hay que poner es valores absolutos*/
