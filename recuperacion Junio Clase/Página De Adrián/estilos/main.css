@@ -1,0 +1,52 @@
+a {
+    /*La herencia a todos los elementos*/
+    text-decoration: none;
+    /*background-color: #f03c01;*/
+    color: black;
+    padding: 10px 14px;
+    display: block;
+}
+
+#menuHorizontal ul li {
+    float: left;
+    /*Esta es la manera correcta de hacerlo*/
+    /*Ahora hay que anular la flotación con clear: both; en el siguiente elemento*/
+    /*display: inline-block;*/
+}
+#menuHorizontal ul li a:hover{
+    /*background-color: #db6446;*/
+    border-bottom: 3px solid #0f499e;
+}
+
+#menuHorizontal ul {
+    list-style: none;
+}
+nav#menuHorizontal ul li:nth-child(1) > a{
+    border-bottom: 3px solid #000;/*Empieza por cero */
+}
+nav#menuHorizontal ul li:nth-child(2) > a{
+    border-bottom: 3px solid #7e93ca;
+}
+nav#menuHorizontal ul li:nth-child(3) > a{
+    border-bottom: 3px solid #00a0f1;
+}
+nav#menuHorizontal ul li:nth-child(4) > a{
+    border-bottom: 3px solid #0f499e;
+}
+
+nav#menuHorizontal ul li a{
+    /*border: 0 0 3px 0 solid #f03c01;*/
+    border-bottom: 3px solid #f03c01;    
+}
+#menuHorizontal {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#main {
+    clear: both;/*Elimino la flotacion que le puse al elemento anterior (la lista de el menu)*/
+}
+
+/*gris negro*/
+
+/*Lo menos que hay que poner es valores absolutos*/
