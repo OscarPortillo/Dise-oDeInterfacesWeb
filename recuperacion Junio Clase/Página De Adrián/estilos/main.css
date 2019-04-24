@@ -3,7 +3,7 @@ a {
     text-decoration: none;
     /*background-color: #f03c01;*/
     color: black;
-    padding: 10px 14px;
+    padding: 7px 14px;
     display: block;
 }
 
@@ -21,32 +21,36 @@ a {
 #menuHorizontal ul {
     list-style: none;
 }
-nav#menuHorizontal ul li:nth-child(1) > a{
-    border-bottom: 3px solid #000;/*Empieza por cero */
-}
-nav#menuHorizontal ul li:nth-child(2) > a{
-    border-bottom: 3px solid #7e93ca;
-}
-nav#menuHorizontal ul li:nth-child(3) > a{
-    border-bottom: 3px solid #00a0f1;
-}
-nav#menuHorizontal ul li:nth-child(4) > a{
-    border-bottom: 3px solid #0f499e;
-}
+
 
 nav#menuHorizontal ul li a{
     /*border: 0 0 3px 0 solid #f03c01;*/
     border-bottom: 3px solid #f03c01;    
 }
 #menuHorizontal {
+    border-bottom: 3px solid #f03c01;    
     font-family:Arial, Helvetica, sans-serif;
 }
 
-
 #main {
     clear: both;/*Elimino la flotacion que le puse al elemento anterior (la lista de el menu)*/
+}
+#menuHorizontal{
+    height: 2rem;
+    width: 100%;
+    background-color: yellow;
 }
 
 /*gris negro*/
 
 /*Lo menos que hay que poner es valores absolutos*/
+@media (max-width 400px){
+    #menuHorizontal ul li a{
+        width: 100%;
+        background-color: blue;
+        display: block;
+    }
+    ul {
+        width: 100px;
+    }
+}
