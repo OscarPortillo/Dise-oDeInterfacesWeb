@@ -37,6 +37,32 @@ ul {
     clear: left;
 }
 
+/*promociones*/
+#promo {
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.flex-container {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 40%;
+    margin: 20px auto 20px auto;
+    padding: auto;
+    text-align: center;
+}
+
+.flex-container > div > img {
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
     #menu {
@@ -66,12 +92,27 @@ ul {
 
     #main,
     #footer {
-        background-color: aqua;
+        /*background-color: aqua;*/
     }
+
     #menu ul li a {
         border-left: 5px solid #f03c01;
     }
+
     #menu ul li a:active {
-    border-left: 5px solid #0f499e;
-}
+        border-left: 5px solid #0f499e;
+    }
+
+    .flex-container > div {
+        background-color: #f1f1f1;
+        width: 100%;
+        margin: 10px;
+        text-align: center;
+    }
+
+    #promo {
+        background-color: white;
+        text-align: center;
+        font-size: 35px;
+    }
 }
