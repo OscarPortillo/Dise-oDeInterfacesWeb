@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 a {
     text-decoration: none;
 }
@@ -33,7 +34,6 @@ ul {
 }
 
 #main {
-    background-color: red;
     clear: left;
 }
 
@@ -48,7 +48,6 @@ ul {
     align-content: center;
     display: flex;
     flex-wrap: wrap;
-    background-color: blanchedalmond;
 }
 
 .flex-container > div {
