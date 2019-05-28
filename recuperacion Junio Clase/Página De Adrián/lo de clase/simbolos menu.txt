@@ -1,0 +1,43 @@
+﻿Unicode
+https://unicode-table.com/es/
+
+Símbolos:
+
+Combining Enclosing Circle
+https://unicode-table.com/es/20DD/
+
+Combining Enclosing Square
+https://unicode-table.com/es/20DE/
+
+Combining Enclosing Diamond
+https://unicode-table.com/es/20DF/
+
+Combining Enclosing Upward Pointing Triangle
+https://unicode-table.com/es/20E4/
+
+House
+https://unicode-table.com/es/2302/
+
+Black Question Mark Ornament
+https://unicode-table.com/es/2753/
+
+Tricolon
+https://unicode-table.com/es/205D/
+
+White Left-Pointing Triangle
+https://unicode-table.com/es/25C1/
+
+Multiplication X
+https://unicode-table.com/es/2715/
+
+Trigram for Heaven
+https://unicode-table.com/es/2630/
+
+Left-Pointing Magnifying Glass
+https://unicode-table.com/es/1F50D/
+
+Right-Pointing Magnifying Glass
+https://unicode-table.com/es/1F50E/
+
+
+
