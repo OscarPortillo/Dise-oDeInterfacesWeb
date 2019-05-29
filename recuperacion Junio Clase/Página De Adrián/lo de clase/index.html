@@ -4,62 +4,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobiliaria Y Decoración</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <script src="main.js"></script>
-    <header id="header">
-        <h1>Mobiliaria Y Decoración</h1>
-    </header>
+    <div class="grid-container">
+        <script src="main.js"></script>
+        <header id="header" class="header">
+            <h1>Mobiliaria Y Decoración</h1>
+        </header>
 
-    <nav id="menu">
-        <ul>
-            <li><a href="#">Ofertas</a></li>
-            <li><a href="#">Categoria 1</a></li>
-            <li><a href="#">Categoria 2</a></li>
-            <li><a href="#">Categoria 3</a></li>
-            <li><a href="#">Mis tiendas</a></li>
-        </ul>
-    </nav>
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Categoria 1</a></li>
+                <li><a href="#">Categoria 2</a></li>
+                <li><a href="#">Categoria 3</a></li>
+                <li><a href="#">Mis tiendas</a></li>
+            </ul>
+        </nav>
 
-    <main id="main">
-        <h2 id="promo">Promociones</h2>
+        <main id="main" class="main">
+            <h2 id="promo">Promociones</h2>
             <button id="casa">&#9776;</button>
-        <div class="flex-container">
-            <div>
-                <img src="images/img1.jpg">
-                <div id="precio">
-                    <p>Precio:$90</p>
-                    <p>Descripción:Un sofá comodisimo.</p>
+            <div class="flex-container">
+                <div>
+                    <img src="images/img1.jpg">
+                    <div id="precio">
+                        <p>Precio:$90</p>
+                        <p>Descripción:Un sofá comodisimo.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/img2.jpg">
+                    <div id="precio">
+                        <p>Precio:$50</p>
+                        <p>Descripción:Una silla muy agradable.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/img3.jpg">
+                    <div id="precio">
+                        <p>Precio:$80</p>
+                        <p>Descripción:Un sofa muy elegante.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/img4.jpg">
+                    <div id="precio">
+                        <p>Precio:$40</p>
+                        <p>Descripción:Una silla perfecta para estudiar.</p>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="images/img2.jpg">
-                <div id="precio">
-                    <p>Precio:$50</p>
-                    <p>Descripción:Una silla muy agradable.</p>
-                </div>
-            </div>
-            <div>
-                <img src="images/img3.jpg">
-                <div id="precio">
-                    <p>Precio:$80</p>
-                    <p>Descripción:Un sofa muy elegante.</p>
-                </div>
-            </div>
-            <div>
-                <img src="images/img4.jpg">
-                <div id="precio">
-                    <p>Precio:$40</p>
-                    <p>Descripción:Una silla perfecta para estudiar.</p>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer id="footer">Footer</footer>
-
+        </main>
+        <aside>
+            <p>
+                ¿Qué es Lorem Ipsum?
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+            </p>
+        </aside>
+        <footer id="footer" class="footer">Footer</footer>
+    </div>
 </body>
 
 </html>
