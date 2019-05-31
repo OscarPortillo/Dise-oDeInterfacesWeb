@@ -60,17 +60,7 @@ ul {
     padding: auto;
     text-align: center;
 }
-#casa{
-    height: 50px;
-    width: 50px;
-    font-size: 30px;
-    background-color:burlywood;
-    border: none;
-}
-#casa:hover{
-    background-color: black;
-    color: white;
-}
+
 .flex-container > div > img {
     width: 100%;
 }
@@ -84,6 +74,7 @@ ul {
 aside{grid-area: aside;}
 .footer{grid-area: footer;}
 
+
 .grid-container {
     display: grid;
     grid-template-areas: 
@@ -92,7 +83,26 @@ aside{grid-area: aside;}
         'main main aside'
         'footer footer footer';
 } 
-
+/*#casa{
+    visibility:hidden;
+}*/
+#casa{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    background-color:burlywood;
+    border: none;
+}
+#casa:hover{
+    background-color: black;
+    color: white;
+}
+#ocultarMenu{
+    font-size: 30px;
+    background-color:burlywood;
+    width: auto;
+    height: 40px;
+}
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
     #menu {

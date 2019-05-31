@@ -1,5 +1,6 @@
 $(document).ready(function () {
     ocultarImagenes();
+    ocultarMenu();
 });
 
 var ocultarImagenes = function () {
@@ -9,5 +10,10 @@ var ocultarImagenes = function () {
         } else {
             $(".flex-container").show();
         }
+    });
+}
+var ocultarMenu = function(){
+    $("#ocultarMenu").on("click", function(){
+        $(".menu").children().slideToggle();
     });
 }
