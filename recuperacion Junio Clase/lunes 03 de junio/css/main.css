@@ -1,0 +1,96 @@
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+        'header'
+        'menu'
+        'main'
+        'footer';
+    grid-gap: 10px;
+    padding: 10px;
+    
+}
+.gird-container > header, nav, div, footer{
+    background-color: rgba(255, 255, 255,0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} 
+#logo{
+    float: left;
+    width: 100px;
+    height: 90px;
+}
+#nombre{
+    text-align: center;
+    font-size: 50px;
+}
+.menu{
+    clear: both;
+    text-align: center;
+}
+.menu ul{
+    justify-content: center;
+    list-style: none;
+}
+.menu ul li{
+    padding: 10px;
+    float: left;
+}
+.menu ul li a{
+    text-transform:uppercase;
+}
+.menu ul li a:hover{
+    background-color: darkgray;
+}
+.main div > img{
+    width: auto;
+    height: 400px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main > div{
+    font-size: 20px;
+}
+.main div{
+    width: 45%;
+}
+.footer{
+    display: inline-block;
+}
+#contacto{
+    float: left;
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    body{
+        background-color: #B0CD98;
+    }
+    .grid-container{
+        width: 100%;
+    }
+    .menu ul li{
+        clear: both;
+        display: block;
+        text-align: center;
+    }
+    .header{
+        width: 100%;
+        display: block;
+    }
+    #logo{
+        padding: 0 45%;
+    }
+    #nombre{
+        width: 100%;
+        text-align: center;
+    }
+    .main > div{
+        width: 100%;
+    }
+}

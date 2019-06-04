@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.header{
+    grid-area: header;
+}
+.derecho{
+    grid-area: derecho;
+}
+.menu{
+    grid-area: menu;
+}
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header '
+        'derecho derecho derecho derecho derecho derecho '
+        'menu main main main main main'
+        'footer footer footer footer footer footer ';
+    grid-gap: 10px;
+    background-color: #f4e5e2;
+    padding: 10px;
+}
+.grid-container > header, nav , main, footer{
+    text-align: center;
+    padding: 20px 0;
+}
+/*logo*/
+#logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+/*logo*/
+#nombre{
+    font-size: 50px;
+    padding: 0px;
+}
+/*menu hizquierdo*/
+a{
+    color: black;
+}
+.menu ul {
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+    background-color: #e4f0dd;
+}
+.menu ul li{
+    padding: 10px;
+    list-style: none;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li:hover{
+    color: black;
+    background-color: dimgrey;
+}
+/*menu hizquierdo*/
+/*menu arriba*/
+.derecho ul {
+    font-family: 'Oswald', sans-serif;
+    background-color: #e4f0dd;
+    display: inline-block;
+    justify-content: center;
+}
+.derecho ul{
+    padding: 0px;
+}
+.derecho ul li:hover{
+    color: black;
+    background-color: dimgrey;
+}
+.derecho ul li{
+    list-style:none;
+    float: left;
+    position: relative;
+    width: auto;
+    padding: 10px 20px;
+}
+li{
+    display: list-item;
+}
+.derecho ul li a{
+    text-decoration: none;
+}
+.derecho ul li>ul{
+    display: none;
+}
+.derecho ul li:hover ul{
+    position: absolute;
+    display: block;
+}
+.derecho ul li:hover >ul {
+    z-index: 9999;
+}
+
+/*menu arriba*/
+
+/*tabla*/
+.tablaL{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    background-color: #e4f0dd;
+}
+td{
+    padding:  20px 0px;
+}
+/*tabla*/
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .header{
+        grid-area: header;
+    }
+    .derecho{
+        grid-area: derecho;
+    }
+    .menu{
+        grid-area: menu;
+    }
+    .main{
+        grid-area: main;
+    }
+    
+    .footer{
+        grid-area: footer;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+            'header '
+            'derecho '
+            'menu '
+            'main'
+            'footer';
+        grid-gap: 10px;
+        background-color: #f4e5e2;
+        padding: 10px;
+    }
+    .grid-container > header, nav , main, footer{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .header{
+        width: 100%;
+        display: block;
+    }
+    #logo{
+        justify-content: center;
+    }
+}

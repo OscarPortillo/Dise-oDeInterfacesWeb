@@ -1,0 +1,185 @@
+{
+    "equipos": [
+        {
+            "nombre": "Barcelona",
+            "puntos": 87,
+            "partidosJugados": 38,
+            "partidosGanados": 26,
+            "partidosEmpatados": 9,
+            "partidosPerdidos": 3,
+            "golesFavor": 90,
+            "golesContra": 36
+    }, {
+            "nombre": "Atlético de Madrid",
+            "puntos": 76,
+            "partidosJugados": 38,
+            "partidosGanados": 22,
+            "partidosEmpatados": 10,
+            "partidosPerdidos": 6,
+            "golesFavor": 55,
+            "golesContra": 29
+    }, {
+            "nombre": "Real Madrid",
+            "puntos": 68,
+            "partidosJugados": 38,
+            "partidosGanados": 21,
+            "partidosEmpatados": 5,
+            "partidosPerdidos": 12,
+            "golesFavor": 63,
+            "golesContra": 46
+    }, {
+            "nombre": "Valencia FC",
+            "puntos": 61,
+            "partidosJugados": 38,
+            "partidosGanados": 16,
+            "partidosEmpatados": 16,
+            "partidosPerdidos": 7,
+            "golesFavor": 51,
+            "golesContra": 35
+    }, {
+            "nombre": "Getafe CF",
+            "puntos": 59,
+            "partidosJugados": 38,
+            "partidosGanados": 15,
+            "partidosEmpatados": 14,
+            "partidosPerdidos": 9,
+            "golesFavor": 48,
+            "golesContra": 35
+    }, {
+            "nombre": "Sevilla FC",
+            "puntos": 59,
+            "partidosJugados": 38,
+            "partidosGanados": 17,
+            "partidosEmpatados": 8,
+            "partidosPerdidos": 13,
+            "golesFavor": 62,
+            "golesContra": 47
+    }, {
+            "nombre": "RCD Espanyol",
+            "puntos": 53,
+            "partidosJugados": 38,
+            "partidosGanados": 14,
+            "partidosEmpatados": 11,
+            "partidosPerdidos": 13,
+            "golesFavor": 48,
+            "golesContra": 50
+    }, {
+            "nombre": "Atletic Club",
+            "puntos": 53,
+            "partidosJugados": 38,
+            "partidosGanados": 13,
+            "partidosEmpatados": 14,
+            "partidosPerdidos": 11,
+            "golesFavor": 41,
+            "golesContra": 45
+    }, {
+            "nombre": "Real Sociedad",
+            "puntos": 50,
+            "partidosJugados": 38,
+            "partidosGanados": 13,
+            "partidosEmpatados": 11,
+            "partidosPerdidos": 14,
+            "golesFavor": 45,
+            "golesContra": 46
+    }, {
+            "nombre": "Real Betis",
+            "puntos": 50,
+            "partidosJugados": 38,
+            "partidosGanados": 14,
+            "partidosEmpatados": 8,
+            "partidosPerdidos": 16,
+            "golesFavor": 44,
+            "golesContra": 52
+    }, {
+            "nombre": "D. Alavés",
+            "puntos": 50,
+            "partidosJugados": 38,
+            "partidosGanados": 13,
+            "partidosEmpatados": 11,
+            "partidosPerdidos": 14,
+            "golesFavor": 39,
+            "golesContra": 50
+    }, {
+            "nombre": "SD Eibar",
+            "puntos": 47,
+            "partidosJugados": 38,
+            "partidosGanados": 11,
+            "partidosEmpatados": 14,
+            "partidosPerdidos": 13,
+            "golesFavor": 46,
+            "golesContra": 50
+    }, {
+            "nombre": "CD Leganés",
+            "puntos": 45,
+            "partidosJugados": 38,
+            "partidosGanados": 11,
+            "partidosEmpatados": 12,
+            "partidosPerdidos": 15,
+            "golesFavor": 37,
+            "golesContra": 43
+    }, {
+            "nombre": "Villareal FC",
+            "puntos": 44,
+            "partidosJugados": 38,
+            "partidosGanados": 10,
+            "partidosEmpatados": 14,
+            "partidosPerdidos": 14,
+            "golesFavor": 49,
+            "golesContra": 52
+    }, {
+            "nombre": "Levante UD",
+            "puntos": 44,
+            "partidosJugados": 38,
+            "partidosGanados": 11,
+            "partidosEmpatados": 11,
+            "partidosPerdidos": 16,
+            "golesFavor": 59,
+            "golesContra": 66
+    }, {
+            "nombre": "R. Valladolid CF",
+            "puntos": 41,
+            "partidosJugados": 38,
+            "partidosGanados": 10,
+            "partidosEmpatados": 11,
+            "partidosPerdidos": 17,
+            "golesFavor": 32,
+            "golesContra": 51
+    }, {
+            "nombre": "RC Celta",
+            "puntos": 41,
+            "partidosJugados": 38,
+            "partidosGanados": 10,
+            "partidosEmpatados": 11,
+            "partidosPerdidos": 17,
+            "golesFavor": 53,
+            "golesContra": 62
+    }, {
+            "nombre": "Girona Fc",
+            "puntos": 37,
+            "partidosJugados": 38,
+            "partidosGanados": 9,
+            "partidosEmpatados": 10,
+            "partidosPerdidos": 19,
+            "golesFavor": 37,
+            "golesContra": 53
+    }, {
+            "nombre": "SD huesca",
+            "puntos": 33,
+            "partidosJugados": 38,
+            "partidosGanados": 7,
+            "partidosEmpatados": 12,
+            "partidosPerdidos": 19,
+            "golesFavor": 43,
+            "golesContra": 65
+    }, {
+            "nombre": "Rayo Vallecano",
+            "puntos": 32,
+            "partidosJugados": 38,
+            "partidosGanados": 8,
+            "partidosEmpatados": 8,
+            "partidosPerdidos": 22,
+            "golesFavor": 41,
+            "golesContra": 70
+    }
+  ]
+}

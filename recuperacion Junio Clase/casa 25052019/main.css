@@ -1,0 +1,12 @@
+#logo{
+    width: 15%;
+    float: left;
+}
+#nombre{
+    width: 80%;
+    text-align: center;
+}
+#login{
+    width: 15%;
+    float: right;
+}
