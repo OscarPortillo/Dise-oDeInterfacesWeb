@@ -78,10 +78,10 @@ aside{grid-area: aside;}
 .grid-container {
     display: grid;
     grid-template-areas: 
-        'header header header'
-        'menu menu menu'
-        'main main aside'
-        'footer footer footer';
+        'header header header header'
+        'menu menu menu menu'
+        'main main aside aside'
+        'footer footer footer footer';
 } 
 /*#casa{
     visibility:hidden;

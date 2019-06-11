@@ -1,0 +1,118 @@
+.item1 {
+    grid-area: header;
+}
+
+.arriba {
+    grid-area: right;
+}
+
+.vertical {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+.item5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'right right right right right right '
+        'menu main main main main main'
+        'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > header,
+nav,
+main,
+footer {
+    background-color: beige;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/*logo*/
+#logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+/*logo*/
+
+/*Menu Horizontal*/
+.arriba ul li {
+    position: relative;
+}
+
+.arriba ul li a {
+    text-decoration: none;
+}
+
+.arriba ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.arriba ul li > ul {
+    display: none;
+}
+
+.arriba ul li:hover > ul {
+    display: block;
+    position: absolute;
+}
+
+.arriba ul li > ul li {
+    float: left;
+}
+
+/*Menu Horizontal*/
+/*Menu vertical*/
+.vertical ul li {
+    list-style: none;
+    position: relative;
+    width: 150px;
+}
+
+.vertical ul li > ul {
+    display: none;
+}
+
+.vertical ul li a {
+    text-decoration: none;
+}
+
+.vertical ul li:hover > ul {
+    display: block;
+    position: absolute;
+    left: 100px;
+}
+
+/*Menu vertical*/
+/*flex box*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    background-color: antiquewhite;
+    padding: 10px;;
+}
+#flex-photo p{
+    font-size: 20px;
+}
+#flex-photo img{
+    width: 320px;
+    height: auto;
+}
+/*flex box*/

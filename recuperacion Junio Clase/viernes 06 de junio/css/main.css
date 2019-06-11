@@ -1,0 +1,70 @@
+.menuVertical ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 150px;
+}
+.menuVertical ul li  {
+    position: relative;
+}
+
+.menuVertical li ul{
+    position: absolute;
+    left: 149px;
+    top: 0px;
+    display: none;
+}
+.menuVertical ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+}
+
+.menuVertical ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ width: 150px;
+ border-bottom: 1px solid #ccc;
+ }
+li:hover ul{
+    display: block;
+}
+
+
+/*menu Horizontal*/
+
+
+.menuHorizontal ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size:20px;
+    
+}
+.menuHorizontal ul li {
+    display: inline-block;
+    width: 90px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    position:relative;
+}
+.menuHorizontal ul li:hover{
+    background-color: #fff;
+    color: #000;
+}
+.menuHorizontal ul li>ul{
+    display: none;
+}
+
+.menuHorizontal ul li:hover > ul{
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;    
+}
