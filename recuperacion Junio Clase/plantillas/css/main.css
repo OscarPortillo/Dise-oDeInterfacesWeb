@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lobster|Roboto+Condensed&display=swap');
+
 .header {
     grid-area: header;
 }
@@ -116,6 +118,12 @@ footer {
 .vertical ul li > ul li {
     width: 150px;
     z-index: 9999;
+}
+.header{
+    font-family: cursive;
+}
+.main{
+    font-family: 'Roboto Condensed';
 }
 
 /*vertical*/
